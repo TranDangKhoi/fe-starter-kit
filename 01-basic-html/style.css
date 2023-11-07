@@ -1,0 +1,25 @@
+/* hex color - mã màu */
+/* #xxx: mã màu có ba kí tự - x là kí tự bất kì */
+/* #xxxxxx: mã màu có sáu kí tự */
+/* #xxxxxxxx: mã màu có tám kí tự */
+/* rgb, rgba */
+/* rgb - viết tắt của red green blue */
+h1.heading {
+  color: rgb(255, 255, 0, 0.6);
+  /* Courier New mà không được hỗ trợ bởi trình duyệt -> nhảy sang Courier, tương tự nếu Courier mà không hoạt động
+  thì sẽ nhảy qua sử dụng monospace */
+  /* font-family: "Courier New", Courier, monospace; */
+  /* Có 4 loại đơn vị được dùng nhiều nhất: px rem em vw */
+  font-size: 16px;
+  /* Độ đậm mặc định của text sẽ là 400 */
+  font-weight: 500;
+  /* Thay đổi style của chữ */
+  font-style: italic;
+  /* text-align sẽ chỉ sử dụng được với các thẻ */
+  text-align: left;
+  /* Khoảng cách giữa từng chữ một bên trong đoạn text */
+  /* letter-spacing: 20px; */
+  /* text-decoration: underline; */
+  /* text-transform: capitalize; */
+  /* text-indent: 10px; */
+}
