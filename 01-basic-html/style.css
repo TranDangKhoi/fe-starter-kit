@@ -5,7 +5,7 @@
 /* rgb, rgba */
 /* rgb - viết tắt của red green blue */
 h1.heading {
-  color: rgb(255, 255, 0, 0.6);
+  color: black;
   /* Courier New mà không được hỗ trợ bởi trình duyệt -> nhảy sang Courier, tương tự nếu Courier mà không hoạt động
   thì sẽ nhảy qua sử dụng monospace */
   /* font-family: "Courier New", Courier, monospace; */
@@ -19,7 +19,7 @@ h1.heading {
   text-align: left;
   /* Khoảng cách giữa từng chữ một bên trong đoạn text */
   /* letter-spacing: 20px; */
-  /* text-decoration: underline; */
+  text-decoration: red underline wavy;
   /* text-transform: capitalize; */
   /* text-indent: 10px; */
 }
