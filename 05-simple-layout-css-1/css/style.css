@@ -1,0 +1,33 @@
+.box {
+  width: 200px;
+  height: 200px;
+  /* tạo ra những cái rìa ở bên ngoài cùng của một khối phần tử */
+  /* border: độ-dày-của-rìa kiểu-rìa màu-của-rìa */
+  /* border: 4px solid red; */
+
+  /* độ dày của rìa */
+  border-width: 4px;
+
+  /* kiểu rìa */
+  border-style: solid;
+
+  /* màu của rìa */
+  border-color: red;
+
+  /* làm rìa cong */
+  /* border-radius: 9999px; */
+
+  /* Nói về margin */
+  /* margin: trên phải dưới trái */
+  /* padding: trên phải dưới trái */
+  /* padding-top và padding-bottom kết hợp lại */
+  padding-block: 12px;
+  /* tương ứng */
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /* padding-left và padding-right kết hợp lại */
+  padding-inline: 12px;
+  /* tương ứng: */
+  padding-left: 12px;
+  padding-right: 12px;
+}
