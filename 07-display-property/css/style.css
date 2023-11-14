@@ -1,0 +1,5 @@
+.flex {
+  /* block inline inline-block table flex grid */
+  /* Flex chỉ đơn thuần là khiến cho các thẻ con nằm bên trong nó nằm ngang hàng với nhau */
+  display: flex;
+}
