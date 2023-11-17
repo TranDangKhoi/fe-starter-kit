@@ -1,0 +1,7 @@
+.image {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  /* trục x trục y */
+  object-position: 100% 50%;
+}

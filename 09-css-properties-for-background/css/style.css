@@ -1,0 +1,10 @@
+/* 1. background-color - dùng để đổi màu nền đằng sau nội dung chính của phần tử */
+/* vh = viewport height => 100 vh chính là 100% chiều cao mà thiết bị hiện tại có thể hiển thị ở trình duyệt */
+/* vw = viewport width => 100 vw chính là 100% chiều rộng mà thiế bị hiện tại có thể hiển thị ở trình duyệt */
+/* body { */
+/* background-color: #88a99b; */
+/* background-image: url("../images/mine.jpg"); */
+/* rất ít lần chúng ta cần sử dụng tới background-size: contain */
+/* background-size: cover; */
+/* background-position-y: 50%; */
+/* } */
