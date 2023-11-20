@@ -1,0 +1,16 @@
+.red-box {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  /* cursor - là thuộc tính để thay đổi con trỏ chuột khi di chuột vào phần tử */
+  cursor: pointer;
+  /* opacity - là thuộc tính quyết định sự trong suốt của phần tử */
+  /* opacity: 0; */
+  /* visibility - là thuộc tính quyết định xem phần tử có được hiển thị hay không */
+  /* visible: có thể nhìn thấy */
+  /* hidden: không thể nhìn thấy */
+  /* visibility: hidden; */
+  /* opacity chỉ làm mờ đi phần tử, nhưng khi thao tác thực hiện call function thì vẫn chạy khi được click vào */
+  /* visibility thì sẽ làm cho các thao tác call function không hoạt động nữa */
+  /* display: none; */
+}
