@@ -1,0 +1,19 @@
+.father-box {
+  width: 500px;
+  height: 400px;
+  background-color: yellow;
+  /* position sẽ có 5 giá trị cần nhớ */
+  /* static fixed relative absolute sticky */
+  /* giống y hệt static */
+  position: relative;
+}
+
+.children-box {
+  width: 200px;
+  height: 200px;
+  border-radius: 9999px;
+  background-color: blue;
+  position: sticky;
+  top: 24px;
+  left: 0;
+}
