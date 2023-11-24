@@ -1,0 +1,10 @@
+/* before và after: nó là 1 pseudo class, trong đó before là nội dung nằm trước thằng con bên trong thẻ hiện tại mình đang chọn trong CSS,
+after là nội dung nằm sau thằng con bên trong thẻ hiện tại mình đang chọn trong CSS  */
+
+.name::before {
+  content: "Tran";
+}
+
+.name::after {
+  content: "Khoi";
+}

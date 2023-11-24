@@ -1,0 +1,41 @@
+.image-wrapper {
+  margin: 200px auto;
+  height: 300px;
+  width: 822px;
+  position: relative;
+}
+
+.image-wrapper::before {
+  content: "Chevrolet";
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  font-size: 36px;
+  font-weight: 300;
+  position: absolute;
+  top: 206px;
+  left: 32px;
+  z-index: 2;
+  /* z-index: dùng để định nghĩa lại thứ tự vị trí của các thẻ đè lên nhau khi sử dụng absolute, fixed, sticky */
+}
+
+.image-wrapper::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.49),
+    rgba(0, 0, 0, 0)
+  );
+  z-index: 1;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 65%;
+}
