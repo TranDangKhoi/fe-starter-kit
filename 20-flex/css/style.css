@@ -1,0 +1,16 @@
+/* gap - dùng để tăng khoảng cách giữa các phần tử con trong một thẻ flex */
+/* flex-direction - dùng để đổi hướng của thẻ flex từ ngang -> dọc và ngược lại */
+/* column-gap: dùng để tăng khoảng cách giữa các phần tử theo chiều ngang */
+/* row-gap: dùng để tăng khoảng cách giữa các phần tử theo chiều dọc */
+/* align-items: dùng để điều chỉnh vị trí của phần tử theo chiều nằm dọc (nằm ngang khi flex-direction: column)  */
+/* justify-content: dùng để điều chỉnh vị trí của phần tử theo chiều nằm ngang (nằm dọc khi flex-direction: column) */
+/* flex-shrink, flex-grow, flex-wrap */
+
+.container {
+  border: 2px solid black;
+  width: 1000px;
+  /* padding: 12px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

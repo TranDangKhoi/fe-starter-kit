@@ -1,0 +1,27 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  gap: 12px;
+  margin: 0 auto;
+  border: 2px solid black;
+  justify-content: center;
+  padding: 16px;
+}
+
+.gallery .img-wrapper {
+  border: 2px solid #ccc;
+}
+
+.gallery .img-wrapper .description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+.gallery .img-wrapper img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
