@@ -1,0 +1,10 @@
+@import "mixins";
+@import "colors";
+
+.father-box {
+  @include box(100px);
+  background-color: $secondary;
+  .father-box-item {
+    color: #fff;
+  }
+}

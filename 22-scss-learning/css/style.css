@@ -1,0 +1,8 @@
+.father-box {
+  width: 100px;
+  height: 100px;
+  background-color: #f6bbaa;
+}
+.father-box .father-box-item {
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

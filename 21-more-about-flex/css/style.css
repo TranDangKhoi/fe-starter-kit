@@ -1,27 +1,31 @@
+/* flex-wrap, flex-shrink, flex-grow */
+/* flex-wrap: tự giác khiến các phần tử con xuống dòng khi dòng hiện tại không còn đủ chỗ cho chúng */
+/* flex-shrink: sẽ khiến cho các phần tử con không bị co lại cả kể khi container bé lại tới cỡ nào đi chăng nữa */
+/* align-self: là thuộc tính dùng cho thằng con, dùng để tự điều chỉnh lại vị trí của một cá thể bất kì (dùng cho flex) */
+/* justify-self: là thuộc tính dùng cho thằng con, dùng để tự điều chỉnh lại vị trí của một cá thể bất kì (dùng cho grid) */
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1000px;
-  gap: 12px;
-  margin: 0 auto;
-  border: 2px solid black;
-  justify-content: center;
+  width: 1300px;
   padding: 16px;
-}
-
-.gallery .img-wrapper {
-  border: 2px solid #ccc;
-}
-
-.gallery .img-wrapper .description {
+  border: 2px solid black;
+  margin: 0 auto;
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 12px;
+  align-items: center;
 }
 
-.gallery .img-wrapper img {
-  width: 300px;
+.gallery-center {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 16px;
+}
+
+.gallery-image {
+  width: 500px;
   height: 300px;
+}
+
+.gallery-image img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }

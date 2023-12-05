@@ -1,16 +1,20 @@
-/* gap - dùng để tăng khoảng cách giữa các phần tử con trong một thẻ flex */
-/* flex-direction - dùng để đổi hướng của thẻ flex từ ngang -> dọc và ngược lại */
-/* column-gap: dùng để tăng khoảng cách giữa các phần tử theo chiều ngang */
-/* row-gap: dùng để tăng khoảng cách giữa các phần tử theo chiều dọc */
-/* align-items: dùng để điều chỉnh vị trí của phần tử theo chiều nằm dọc (nằm ngang khi flex-direction: column)  */
-/* justify-content: dùng để điều chỉnh vị trí của phần tử theo chiều nằm ngang (nằm dọc khi flex-direction: column) */
-/* flex-shrink, flex-grow, flex-wrap */
-
-.container {
-  border: 2px solid black;
-  width: 1000px;
-  /* padding: 12px; */
+/* display: flex -> dùng để dàn hàng ngang các phần tử con của phần tử cha mà có display:flex */
+/* gap: dùng để tăng khoảng cách giũa các phần tử trong một flex */
+/* column-gap: dùng để tăng khoảng cách (nằm ngang) giữa các phần tử trong một flex */
+/* row-gap: dùng để tăng khoảng cách (nằm dọc) giữa các phần tử trong một flex */
+/* flex-direction: dùng để thay đổi hướng đi của một flex */
+/* align-items: sẽ dùng để điều chỉnh vị trí của các phần tử con bên trong một flex (theo chiều dọc) */
+/* justify-content: dùng để điều chỉnh vị trí của các phần tử con bên trong một flex (theo chiều ngang) */
+.flex-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 12px;
+  /* padding: 12px; */
+  align-items: flex-end;
+  /* space-around, space-evenly: rất kén người dùng, hầu hết là không ai dùng cả và chỉ dùng vào những trường hợp nhất định */
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 500px;
+  height: 300px;
+  border: 2px solid black;
 }

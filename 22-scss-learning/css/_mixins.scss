@@ -1,0 +1,6 @@
+// Nếu không truyền vào $height, thì $height sẽ có giá trị mặc định là bằng $width
+
+@mixin box($width, $height: $width) {
+  width: $width;
+  height: $height;
+}

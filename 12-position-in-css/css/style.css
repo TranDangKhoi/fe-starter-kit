@@ -13,7 +13,7 @@
   height: 200px;
   border-radius: 9999px;
   background-color: blue;
-  position: sticky;
+  position: absolute;
   top: 24px;
   left: 0;
 }
