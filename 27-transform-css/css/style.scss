@@ -1,0 +1,22 @@
+// translate: dùng để di chuyển phần tử xung quanh dựa theo giá trị x và y truyền vào
+// scale: dùng để tăng kích cỡ của phần tử lên (giá trị maximum là 1 tỷ)
+// rotate: dùng để xoay phần tử (VD: 30deg, 60deg)
+// skew: làm nghiên phần tử dựa theo giá trị độ truyền vào (VD: 30deg, 60deg)
+// parallax, 3d web design, perspective
+
+.box {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top, #ffb534, #fbf6ee, #c1f2b0);
+    width: 100%;
+    height: 100%;
+    transform: translateY(-40%) skewY(-10deg);
+    z-index: -1;
+  }
+}

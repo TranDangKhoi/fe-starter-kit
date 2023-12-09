@@ -1,0 +1,16 @@
+.box {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+.box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to top, #ffb534, #fbf6ee, #c1f2b0);
+  width: 100%;
+  height: 100%;
+  transform: translateY(-40%) skewY(-10deg);
+  z-index: -1;
+}/*# sourceMappingURL=style.css.map */
