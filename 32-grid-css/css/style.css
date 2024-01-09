@@ -1,0 +1,7 @@
+.container {
+  display: grid;
+  /* grid-template-columns: dùng để phân chia bao nhiêu items mỗi cột và mỗi cột đó sẽ có độ rộng là bao nhiêu */
+  /* repeat(số items trong một hàng, độ rộng của các items đó) */
+  grid-template-columns: repeat(3, 1fr);
+  /* khi làm việc với grid thì ta sẽ có một đơn vị mới cần phải học đó chính là : "fr" */
+}

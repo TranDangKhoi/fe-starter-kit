@@ -1,0 +1,20 @@
+.box {
+  width: 600px;
+  height: 600px;
+  background-color: yellow;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .box {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+  }
+}
+@media screen and (max-width: 767px) {
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+  }
+}/*# sourceMappingURL=style.css.map */

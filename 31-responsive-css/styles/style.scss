@@ -1,0 +1,27 @@
+// Ở màn hình desktop:
+.box {
+  width: 600px;
+  height: 600px;
+  background-color: yellow;
+}
+
+// Khi co xuống màn hình ipad/tablet:
+// Thay đổi CSS của tất cả các màn hình có width <= 1023px và >= 768px
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .box {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+  }
+}
+
+// Khi co màn hình xuống dưới cả ipad thì sao?
+// Tức là đây là các màn hình điện thoại
+// Thay đổi CSS của tất cả các màn hình có width <= 767px
+@media screen and (max-width: 767px) {
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+  }
+}
